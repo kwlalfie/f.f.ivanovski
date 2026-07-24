@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alfie — Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="nav-mark" href="#top">ALFIE</a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#listening">Listening</a></li>
+      <li><a href="#instagram">Instagram</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div id="top"></div>
+
+<header class="hero">
+  <p class="hero-eyebrow">Portfolio — 2026</p>
+  <h1>Lorem ipsum dolor sit amet, consectetur.</h1>
+  <p class="hero-sub">Placeholder tagline. Replace with a one or two line summary of what you do — role, focus, and what people should expect from this page.</p>
+</header>
+
+<section id="about">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="section-num">01</span>
+      <h2 class="section-title">About</h2>
+    </div>
+    <div class="about-grid">
+      <img src="assets/profile.svg" alt="Placeholder profile photo">
+      <div class="about-text">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+        <p>Nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="work">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="section-num">02</span>
+      <h2 class="section-title">Work</h2>
+    </div>
+    <div class="work-grid">
+      <a class="work-card" href="#">
+        <img src="assets/project-1.svg" alt="Placeholder project image 1">
+        <h3>Project title one</h3>
+        <p>Lorem ipsum dolor sit amet, short project description.</p>
+      </a>
+      <a class="work-card" href="#">
+        <img src="assets/project-2.svg" alt="Placeholder project image 2">
+        <h3>Project title two</h3>
+        <p>Consectetur adipiscing elit, sed do eiusmod tempor.</p>
+      </a>
+      <a class="work-card" href="#">
+        <img src="assets/project-3.svg" alt="Placeholder project image 3">
+        <h3>Project title three</h3>
+        <p>Incididunt ut labore et dolore magna aliqua ut enim.</p>
+      </a>
+      <a class="work-card" href="#">
+        <img src="assets/project-4.svg" alt="Placeholder project image 4">
+        <h3>Project title four</h3>
+        <p>Ad minim veniam, quis nostrud exercitation ullamco.</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section id="listening">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="section-num">03</span>
+      <h2 class="section-title">Listening</h2>
+    </div>
+
+    <!--
+      SPOTIFY EMBED
+      Get your own embed code from Spotify:
+      1. Open the album/playlist/track in Spotify
+      2. Click the "..." menu → Share → Embed playlist/album/track
+      3. Copy the src URL from the iframe it gives you and paste it below,
+         replacing the placeholder src.
+    -->
+    <div class="listening-embed">
+      <iframe
+        src="https://open.spotify.com/embed/album/1DFixLWuPkv3KT3TnV35m3?utm_source=generator&theme=0"
+        width="100%"
+        height="352"
+        frameborder="0"
+        allowfullscreen=""
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+        loading="lazy">
+      </iframe>
+    </div>
+    <p class="listening-note">Placeholder album embed — swap the iframe src for your own album, playlist, or track link.</p>
+  </div>
+</section>
+
+<section id="instagram">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="section-num">04</span>
+      <h2 class="section-title">Instagram</h2>
+    </div>
+
+    <!--
+      INSTAGRAM EMBEDS
+      Instagram only embeds real, published posts — there's no generic placeholder embed.
+      To add a real post:
+      1. Open the post on instagram.com, click "..." → Embed → Copy embed code
+      2. Paste the <blockquote class="instagram-media">...</blockquote> code
+         in place of one of the .insta-embed-slot divs below
+      3. Keep the embed.js script tag at the bottom of the page (already included)
+      The slots below are placeholders until you do that.
+    -->
+    <div class="insta-grid">
+      <div class="insta-embed-slot"><p>Instagram post embed placeholder</p></div>
+      <div class="insta-embed-slot"><p>Instagram post embed placeholder</p></div>
+      <div class="insta-embed-slot"><p>Instagram post embed placeholder</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="section-num">05</span>
+      <h2 class="section-title">Contact</h2>
+    </div>
+    <h2>Say hello.</h2>
+    <div class="contact-links">
+      <a href="mailto:you@example.com">you@example.com</a>
+      <a href="#">Instagram</a>
+      <a href="#">LinkedIn</a>
+      <a href="#">GitHub</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    &copy; 2026 Alfie. Built and hosted on GitHub Pages.
+  </div>
+</footer>
+
+<!-- Instagram embed script — required for any instagram-media blockquotes you add above -->
+<script async src="//www.instagram.com/embed.js"></script>
+
+</body>
+</html>
