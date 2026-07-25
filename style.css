@@ -339,8 +339,15 @@ footer {
   .nav-links li { flex: 0 0 auto; }
 }
 
-.soundcloud-embed iframe {
+.soundcloud-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-md);
+}
+
+.soundcloud-card iframe {
   display: block;
+  width: 100%;
 }
 
 .soundcloud-caption {
@@ -348,3 +355,6 @@ footer {
   color: var(--ink);
   margin-top: var(--space-xs);
 }
+
+.soundcloud-grid { grid-template-columns: 1fr; }
+
