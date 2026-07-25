@@ -234,16 +234,22 @@ section {
   gap: var(--space-sm);
 }
 
-.insta-embed-slot {
+.insta-card {
+  display: block;
+  border: none;
+}
+
+.insta-card img {
+  width: 100%;
   aspect-ratio: 1 / 1;
-  background: var(--panel);
-  border: 1px dashed var(--line);
-  border-radius: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: var(--space-sm);
-  text-align: center;
+  object-fit: cover;
+  display: block;
+  margin-bottom: var(--space-xs);
+}
+
+.insta-card p {
+  font-size: 13px;
+  margin: 0;
 }
 
 .insta-embed-slot p {
