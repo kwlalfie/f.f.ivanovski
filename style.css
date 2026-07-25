@@ -338,3 +338,13 @@ footer {
 
   .nav-links li { flex: 0 0 auto; }
 }
+
+.soundcloud-embed iframe {
+  display: block;
+}
+
+.soundcloud-caption {
+  font-size: 13px;
+  color: var(--ink);
+  margin-top: var(--space-xs);
+}
