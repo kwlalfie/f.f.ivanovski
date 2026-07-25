@@ -226,6 +226,10 @@ section {
   margin-top: var(--space-xs);
 }
 
+.listening-embed iframe {
+  display: block;
+}
+
 /* Instagram */
 
 .insta-grid {
