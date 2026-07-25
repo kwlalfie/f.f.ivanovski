@@ -347,7 +347,8 @@ footer {
 
 .soundcloud-card iframe {
   display: block;
-  width: 100%;
+  width: 100% !important;
+  max-width: 100%;
 }
 
 .soundcloud-caption {
