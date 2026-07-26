@@ -357,3 +357,49 @@ footer {
   color: var(--ink);
   margin-top: var(--space-xs);
 }
+
+.blog-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+}
+
+.blog-entry {
+  display: block;
+  border: none;
+}
+
+.blog-entry h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 4px 0 8px;
+}
+
+.blog-entry p {
+  margin: 0;
+  color: var(--ink);
+}
+
+.blog-date {
+  font-size: 13px;
+  color: var(--ink);
+  opacity: 0.6;
+}
+
+.post {
+  padding: var(--space-xl) var(--space-md);
+  max-width: 680px;
+}
+
+.post h1 {
+  font-size: clamp(32px, 5vw, 48px);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  margin: 8px 0 var(--space-md);
+}
+
+.post-body p {
+  font-size: 17px;
+  line-height: 1.7;
+  margin: 0 0 var(--space-sm);
+}
