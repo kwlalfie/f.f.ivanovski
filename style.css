@@ -304,24 +304,15 @@ footer {
     rgba(255,255,255,0) 100%);
 }
 
-.fade-edge.bottom {
-  mask-image: linear-gradient(to top,
-  black 0%,
-  black 10%,
-  rgba(0,0,0,0.4) 40%,
-  rgba(0,0,0,0.6) 60%,
-  rgba(0,0,0,0.7) 70%,
-  rgba(0,0,0,0.8) 80%,
-  transparent 100%);
--webkit-mask-image: linear-gradient(to top,
-  black 0%,
-  black 10%,
-  rgba(0,0,0,0.4) 40%,
-  rgba(0,0,0,0.6) 60%,
-  rgba(0,0,0,0.7) 70%,
-  rgba(0,0,0,0.8) 80%,
-  transparent 100%);
-}
+.fade-edge.bottom {  
+  bottom: 0;  
+  height: 30px;  
+  background: linear-gradient(to top,    
+  rgba(255,255,255,1) 0%,    
+  rgba(255,255,255,0.9) 15%,    
+  rgba(255,255,255,0.5) 45%,    
+  rgba(255,255,255,0) 100%);
+} 
 
 /* Responsive */
 
