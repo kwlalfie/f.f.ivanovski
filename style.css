@@ -312,6 +312,7 @@ footer {
     rgba(255,255,255,0.9) 15%,
     rgba(255,255,255,0.5) 45%,
     rgba(255,255,255,0) 100%);
+  backdrop-filter: blur(3px);
 }
 
 /* Responsive */
