@@ -304,12 +304,13 @@ footer {
     rgba(255,255,255,0) 100%);
 }
 
-.fade-edge.bottom {  
-  bottom: 0;  
-  height: 30px;  
+.fade-edge.bottom {
+  bottom: 0;
+  height: 70px;
   background: rgba(255, 255, 255, 0.7);
-  backdrop-filter: blur(4px);
-} 
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(4px);
+}
 
 /* Responsive */
 
