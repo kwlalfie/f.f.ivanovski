@@ -300,7 +300,7 @@ footer {
 
 .fade-edge.top {
   top: 0;
-  height: 100px;
+  height: 70px;
   background: rgba(255, 255, 255, 0.7);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
@@ -308,7 +308,7 @@ footer {
 
 .fade-edge.bottom {
   bottom: 0;
-  height: 100px;
+  height: 70px;
   background: rgba(255, 255, 255, 0.7);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
